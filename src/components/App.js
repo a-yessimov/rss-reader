@@ -1,6 +1,8 @@
 import React from 'react'
 import { Sidebar } from './Sidebar'
 import { AddForm } from './AddForm'
+import { ChangeForm } from './ChangeForm'
+import { Chanel } from './Chanel'
 
 export const App = () => {
 
@@ -11,7 +13,9 @@ export const App = () => {
                     <Sidebar />
                 </div>
                 <div className='col-8'>
+                    <Chanel />
                     <AddForm />
+                    <ChangeForm />
                 </div>
             </div>
         </div>

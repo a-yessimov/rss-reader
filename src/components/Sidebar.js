@@ -10,7 +10,7 @@ export const Sidebar = () => {
     return (
         <ul className="list-group">
             <li className="list-group-item">
-                <button type="button" className="btn btn-primary">Primary</button>
+                <button type="button" className="btn btn-primary">Добавить</button>
             </li>
             {urlsList.map((item, i) => <ChanelLink key={i} url={item}/>)}
         </ul>
